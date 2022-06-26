@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(62, 173, 177);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid rgb(245, 90, 142);
+    background-color: rgb(248, 175, 199);
+    color: rgb(245, 90, 142);
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.CounterTitle {
+    font-size: 50pt solid black;
+    color: rgb(247, 217, 227);
+    font-weight: 600;
+    text-align: center;
+}
+
+.ButtonClick {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20pt solid black;
+    color: rgb(247, 217, 227);
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+    color: white;
+}
